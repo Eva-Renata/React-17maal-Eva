@@ -1,0 +1,27 @@
+@import "../../helpers/helpers.scss";
+
+footer {
+  background-color: $greycolor;
+  display: grid;
+  grid-template-columns: 40% 40% 20%;
+  h3 {
+    color: #6699cc;
+    font-size: 3vw;
+    font-weight: 400;
+    margin-bottom: 20px;
+    padding: 25px 0 25px 70px;
+    margin: 0;
+  }
+  a {
+    font-family: "Roboto Condensed", sans-serif;
+    color: #bcbcbc;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    padding-left: 70px;
+  }
+  img {
+    width: 40%;
+    padding-top: 30px;
+  }
+}

@@ -1,0 +1,40 @@
+@import "../../helpers/helpers.scss";
+//header font
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap");
+
+header {
+  background-color: $greycolor;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  font-family: "Oswald", sans-serif;
+  img {
+    width: 50%;
+    padding: 5% 10% 5% 25%;
+  }
+  h1 {
+    color: white;
+    font-weight: 500;
+    font-size: 6.5vw;
+    margin: 3% 0 0 0;
+  }
+  h2 {
+    color: $lightblue;
+    font-weight: 300;
+    font-size: 5.5vw;
+    margin: 0;
+  }
+  nav ul {
+    float: right;
+    padding: 0;
+    width: 50%;
+    li {
+      list-style: none;
+      display: inline-block;
+      padding: 2%;
+      a {
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+}

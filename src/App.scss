@@ -1,0 +1,11 @@
+//styles that have to be used through the whole page
+@import "././components//helpers/helpers.scss";
+
+body {
+  //css reset and general style
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: $accentcolor;
+  font-family: "Roboto Condensed", sans-serif;
+}
